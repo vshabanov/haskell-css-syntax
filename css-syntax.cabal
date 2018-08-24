@@ -1,5 +1,5 @@
 name:                css-syntax
-version:             0.0.7
+version:             0.0.9
 
 synopsis: This package implments a parser for the CSS syntax
 description:
@@ -37,6 +37,8 @@ library
    , scientific
    , text
 
+  build-tools:         alex
+
   ghc-options: -Wall
 
 
@@ -60,3 +62,5 @@ test-suite spec
 
    , hspec
    , directory
+
+  build-tools:         alex
